@@ -51,6 +51,7 @@ DoorkeeperDeviseClient::Application.routes.draw do
   #
   match 'explore/:api' => 'api#explore', :as => :explore_api
   match 'explore_claims/:api' => 'api#explore_claims', :as => :explore_api_claims
+  match 'explore_prescriptions/:api' => 'api#explore_prescriptions', :as => :explore_api_prescriptions
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" } do
     get 'sign_out', :to => 'users/sessions#destroy', :as => :destroy_user_session
   end
