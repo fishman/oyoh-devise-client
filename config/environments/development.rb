@@ -30,6 +30,6 @@ DoorkeeperDeviseClient::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
 
-DOORKEEPER_APP_ID = "375c2e3fdef2acba33ceefaa14be2b251d5174b9defc2a3b8e27fee8103a5aeb"
-DOORKEEPER_APP_SECRET = "6a2fa82ab6f7b565c8f8f57f677e408ebcda208709bde6eae0a784b48b49205c"
-DOORKEEPER_APP_URL = "http://localhost:4000"
+DOORKEEPER_APP_ID = "c7222ef96c60119bbf2b394a7c460a56a13c4e5b01ab9a394d63fb1c23106f65"
+DOORKEEPER_APP_SECRET = "bc2180403617de236264a08039948ccff00f130468d6c896ef64d10dae0d4754"
+DOORKEEPER_APP_URL = "http://localhost:3000"

@@ -1,5 +1,5 @@
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
-  def doorkeeper
+  def oyoh
     oauth_data = request.env["omniauth.auth"]
     @user = User.find_or_create_for_doorkeeper_oauth(oauth_data)
     @user.update_doorkeeper_credentials(oauth_data)

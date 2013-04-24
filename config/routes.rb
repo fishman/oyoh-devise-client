@@ -50,6 +50,7 @@ DoorkeeperDeviseClient::Application.routes.draw do
   # just remember to delete public/index.html.
   #
   match 'explore/:api' => 'api#explore', :as => :explore_api
+  match 'explore_claims/:api' => 'api#explore_claims', :as => :explore_api_claims
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" } do
     get 'sign_out', :to => 'users/sessions#destroy', :as => :destroy_user_session
   end

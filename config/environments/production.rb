@@ -62,4 +62,4 @@ end
 
 DOORKEEPER_APP_ID = "1ddde7cfab1b1696104f2fde213ada8b504972de7b2d17eaaa3125cb559f65c9"
 DOORKEEPER_APP_SECRET = "796ce849f90771b5d3f4f2b9f3c2b48b2db3e4052d94d40b5f1d9f86cee63a73"
-DOORKEEPER_APP_URL = "http://doorkeeper-provider.herokuapp.com"
+DOORKEEPER_APP_URL = "https://cajuncodefest.dhh.la.gov"

@@ -15,10 +15,10 @@ ActiveRecord::Schema.define(:version => 20111129160159) do
 
   create_table "users", :force => true do |t|
     t.integer  "doorkeeper_uid"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
     t.string   "doorkeeper_access_token"
-    t.string   "email"
+    t.string   "first_name"
   end
 
 end

@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 
   def self.find_or_create_for_doorkeeper_oauth(oauth_data)
     User.find_or_initialize_by_doorkeeper_uid(oauth_data.uid).tap do |user|
-      user.email = oauth_data.info.email
+      user.first_name = oauth_data.info.first_name
     end
   end
 
